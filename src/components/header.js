@@ -13,6 +13,7 @@ const Header = () => {
 
 const Site = styled.h2`
   margin: 0;
+  color: #767676;
 `
 
 export default Header;

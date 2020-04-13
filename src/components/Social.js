@@ -7,25 +7,33 @@ import { motion } from 'framer-motion';
 const Social = () => {
   return(
     <SocialWrap>
-     
-      <Icon className="spotify"  style={ iconStyle } />
-      <Icon className="apple icon"  style={ iconStyle } />
-      <Icon className="instagram"  style={ iconStyle } />
-      
-      {/* <i class="apple icon"></i> */}
+      <motion.div whileHover={animation} >
+        <Icon className='spotify' style={ iconStyle } />
+      </motion.div>
+      <motion.div whileHover={animation} >
+        <Icon className="apple icon"  style={ iconStyle } />
+      </motion.div>
+      <motion.div whileHover={animation} >
+        <Icon className="instagram"  style={ iconStyle } />
+      </motion.div>
     </SocialWrap>
     
   )
 }
 
+const animation = {
+  scale: 1.2,
+}
+
 const iconStyle = {
   fontSize: '30px',
   marginRight: '10px',
-  marginLeft: '10px'
+  marginLeft: '10px',
+  color: '#767676'
 }
 
 const SocialWrap = styled.div`
-  margin: 20px 0;
+  margin: 40px 0;
   width: 100%;
   display: flex;
   justify-content: center;
