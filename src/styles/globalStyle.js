@@ -1,22 +1,21 @@
 import styled from 'styled-components';
 
+ export const colors = {
+    main: '#ffd0fd',
+    contact: '#719FC6',
+    video: '#5887B0',
+    music: '43749C',
+}
+
 export const Container = styled.div`
     height: 100vh;    
- 
-`
-
-export const Landing = styled.div`
+    background-color: ${colors.main};
     display: flex;
-    flex-direction: column; 
-    flex-wrap: nowrap;
-    height: 100%;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 `
 
-export const Header = styled.div`
-    text-align: center;
-    padding-top: 10px;
-`
 export const Title = styled.h1`
     margin: 0;
 `
@@ -30,7 +29,7 @@ export const Button = styled.button`
 `
 
 export const Cover = styled.div`
-    background-color: #ffd0fd;
+    background-color: ${colors.main};
     text-align: center;
     height: 400px;
     display: flex;

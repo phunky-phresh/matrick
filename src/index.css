@@ -11,7 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-html {
-  background-color: #ffd0fd;
+html, h1, h2, h3 {
+  /* background-color: #ffd0fd; */
   margin: 0;
 }
+/* i {
+  width: 20px;
+} */
