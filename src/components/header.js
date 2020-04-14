@@ -6,7 +6,7 @@ const Header = () => {
 
   return(
     <Head>
-      <Site>matrickjones.com</Site>
+      <Site>matrickjones</Site>
     </Head>
   )
 }
@@ -17,6 +17,10 @@ const Head = styled.div`
 const Site = styled.h2`
   margin: 0px;
   color: #767676;
+  letter-spacing: 3px;
+  @media (max-width: 450px) {
+    font-size: 35px;
+  }
 `
 
 export default Header;

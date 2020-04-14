@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 
 import Social from '../components/Social';
 import artwork from '../assets/matrickcover.JPG';
-import lol from '../assets/square.jpg';
 
 const Landing = () => {
 

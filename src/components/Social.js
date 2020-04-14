@@ -38,9 +38,9 @@ const animation = {
 }
 
 const iconStyle = {
-  fontSize: '30px',
-  marginRight: '10px',
-  marginLeft: '10px',
+  fontSize: '40px',
+  marginRight: '12px',
+  marginLeft: '12px',
   color: '#767676'
 }
 
