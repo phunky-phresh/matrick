@@ -5,14 +5,17 @@ import styled from 'styled-components';
 const Header = () => {
 
   return(
-    <div>
+    <Head>
       <Site>matrickjones.com</Site>
-    </div>
+    </Head>
   )
 }
 
+const Head = styled.div`
+  margin-top: 10px;
+`
 const Site = styled.h2`
-  margin: 0;
+  margin: 0px;
   color: #767676;
 `
 

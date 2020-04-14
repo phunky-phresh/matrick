@@ -12,7 +12,7 @@ export const Container = styled.div`
     background-color: ${colors.main};
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 `
 
