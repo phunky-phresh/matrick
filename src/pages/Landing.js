@@ -49,6 +49,11 @@ const Image = styled.img`
   max-width: 350px;
   box-shadow: 0px 0px 9px 2px #c3a8c2;
   border-radius: 2px;
+
+  @media (max-width: 450px) {
+    max-width: 350px;
+    box-shadow: none;
+}
 `
 
 export default Landing;

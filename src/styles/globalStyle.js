@@ -14,6 +14,10 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: 450px) {
+        justify-content: center;
+    }
 `
 
 export const Title = styled.h1`

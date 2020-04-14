@@ -14,6 +14,10 @@ code {
 html, h1, h2, h3 {
   /* background-color: #ffd0fd; */
   margin: 0;
+  
+}
+html {
+  height: 100vh;
 }
 /* i {
   width: 20px;
