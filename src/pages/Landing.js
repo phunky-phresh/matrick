@@ -27,8 +27,8 @@ const Landing = () => {
     <Wrap>
       <motion.div
         // onTap={animate}
-        animate={{ opacity: 0.2 }}
-        transition={{ flip: 1, duration: 2 }}
+        // animate={{ opacity: 0.2 }}
+        // transition={{ flip: 1, duration: 2 }}
       >
         <Image onClick={_handleClick} src={cover} />
       </motion.div>
