@@ -25,15 +25,16 @@ const Landing = () => {
   return(
     <Wrap>
       <motion.div
-        // onTap={animate}
-        // animate={{ opacity: 0.2 }}
-        // transition={{ flip: 1, duration: 2 }}
+        initial={{opacity: 0}}
+        animate={{opacity: 1}}
+        transition={{duration: 2, ease: "easeIn"}}
       >
         <Image onClick={_handleClick} src={cover} />
-      </motion.div>
+     
         
       
       <Social />
+      </motion.div>
     </Wrap>
   )
 }
